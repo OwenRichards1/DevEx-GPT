@@ -14,35 +14,34 @@ Please note that you will need to have an Azure OpenAI API key to use this app. 
 When succesfully registed, please create a .env file in the root of the project with the following variables:
 
     ```bash
-        # OpenAI values
-        AOAIEndpoint = ""
-        AOAIKey = ''
-        AOAIDeploymentId = ''
+    # OpenAI values
+    AOAIEndpoint = ""
+    AOAIKey = ''
+    AOAIDeploymentId = ''
         
-        
-        # Cognitive Search values
-        COGNITIVE_SEARCH_ENDPOINT = ''
-        COGNITIVE_SEARCH_KEY = ''
-        COGNITIVE_INDEX_NAME = ''
+    # Cognitive Search values
+    COGNITIVE_SEARCH_ENDPOINT = ''
+    COGNITIVE_SEARCH_KEY = ''
+    COGNITIVE_INDEX_NAME = ''
     ```
 
 Next, you will need to install the required Python packages. You can do this by running the following command:
 
     ```bash
-        pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 Finally, you can run the app by running the following command:
 
     ```bash
-        python ./devex-gpt-api/ai-API.py
+    python ./devex-gpt-api/ai-API.py
     ```
 
 Without using the SPA to consume the API, you can test the API by using Postman using the following:
 
     ```bash
-        POST http://localhost:5000/chat
-        Content-Type: application/json
+    POST http://localhost:5000/chat
+    Content-Type: application/json
         {
             "prompt": "This is a test prompt",
         }
@@ -55,13 +54,13 @@ This is a NextJS APP used as a UI to communicate with the API. It is a simple fo
 To install the required packages, run the following command:
 
     ```bash
-        npm install
+    npm install
     ```
 
 To run the app, run the following command:
 
     ```bash
-        npm run dev
+    npm run dev
     ```
 
 The app will be available at `http://localhost:3000`.
