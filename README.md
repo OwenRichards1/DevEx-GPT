@@ -41,7 +41,7 @@ Finally, you can run the app by running the following command:
 Without using the SPA to consume the API, you can test the API by using Postman using the following:
 
     ```bash
-        POST http://localhost:5000/api/ai
+        POST http://localhost:5000/chat
         Content-Type: application/json
         {
             "prompt": "This is a test prompt",
@@ -66,4 +66,4 @@ To run the app, run the following command:
 
 The app will be available at `http://localhost:3000`.
 
-:::image type="content" source="{media\devex-gpt-chat.png}" alt-text="{image of chat bot}":::
+![Screenshof of chat app](./media/devex-gpt-chat.png)
